@@ -1,2 +1,2 @@
 
-print("Hello World")
+print('EA SPorts servers are trash')
