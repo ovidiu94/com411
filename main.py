@@ -1,5 +1,5 @@
+print("What is your name?")
+#Variable is a container, which can store data for us in the memory (string, integer, float, bool)
+name = input()
+print(type(name))
 
-print('EA SPorts servers are trash')
-print("First Step : git add .")
-print('Second Step : git commit -m "Your messsage in here"')
-print("Last Step : git push")
