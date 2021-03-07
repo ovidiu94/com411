@@ -26,4 +26,4 @@ elif option == 4:
   for i in range(1,11,1):
     print("{}x{} = {}".format(n,i,n*i))
 else:
-  print("There is not such option. Go to Specservers!")
+  print("There is not such option. Go to Specservers!!")
