@@ -15,5 +15,5 @@ elif(second_number > first_number):
   print("Second number is bigger!")
 else:
   print("Both numbers are equal!")  
-print("Done!")#Dispay a message  
+print("Done!")#Dispay a message 
 
