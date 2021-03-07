@@ -1,10 +1,10 @@
 print("Welcome to the Program!\n")
 
 print("Enter the first number")#ask the user to enter first number
-first_number= input()
+first_number= int(input())
 
 print("Enter the second number")#ask the user to enter second number
-second_number=input()
+second_number= int(input())
 
 #check whether the first number is bigger than second number.
 #Assume first_number and second_number are existing variables.
