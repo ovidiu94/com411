@@ -1,4 +1,4 @@
-print("Welcome to the Program!\n")
+print("Welcome to the Program!!!\n")
 
 print("Enter the first number")#ask the user to enter first number
 first_number= int(input())
