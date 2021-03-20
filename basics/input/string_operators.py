@@ -9,9 +9,3 @@ print("Please enter the shield level.")
 shield = int(input())
 shield =shield*"\u2666"
 print(f"Health has been set.\n\n\nLives:  {lives}\nEnergy: {energy}\nShield: {shield}")
-   
-
-
-
-   
-
