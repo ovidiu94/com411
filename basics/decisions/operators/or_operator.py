@@ -9,7 +9,3 @@ elif ( (adventure_type == "safe") or (adventure_type == "long") ):
     print("\nTaking the safe route!")
 else:
     print("\nNot sure which route to take.")
-
-
-   
-
