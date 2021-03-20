@@ -14,8 +14,3 @@ if (cover_type == "soft"):
 else:
     print("Books with hard covers can be more expensive!")
  
-
-
-
-   
-

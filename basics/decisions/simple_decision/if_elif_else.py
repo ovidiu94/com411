@@ -1,15 +1,15 @@
 
 print("\nTowards which directios should i paint (up, down, left, right?")
 
-brush = input()
+direction = input()
 
-if(brush =="up"):
+if(direction =="up"):
   print("I am painting in the upward direction!")
-elif(brush =="down"):
+elif(direction =="down"):
   print("I am painting in the downward direction!")
-elif(brush =="left"):
+elif(direction =="left"):
   print("I am painting in the leftward direction!")
-elif(brush =="right"):
+elif(direction =="right"):
   print("I am painting in the rightward direction!")
 else:
   print("I dont know this direction of painting!!\nRead the intructions AGAIN!!")
