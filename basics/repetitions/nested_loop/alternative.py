@@ -20,4 +20,3 @@ for character in sequence:
 
 # Display result
 print(f"The distance between the markers is {count}")
-
