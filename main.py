@@ -1,5 +1,5 @@
 def directions():
-  directions = ["Move Forward!", "Move Backward!", "Turn Left!", "Turn Right!"]
+  directions = ["Move Forward", "Move Backward", "Turn Left", "Turn Right"]
   return directions
 
 def run():
