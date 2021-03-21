@@ -20,4 +20,4 @@ for position in range(0, len(sequence), 1):
 
 # Display result
 print(f"The distance between the markers is {marker2_position - marker1_position - 1}.")
-print("Done!")
+print("Done!!")
