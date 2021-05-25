@@ -20,4 +20,5 @@ def menu():
     else:
         print("Invalid number for any other option!")
 
+
 menu()
