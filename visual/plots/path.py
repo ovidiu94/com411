@@ -1,11 +1,12 @@
 import matplotlib.pyplot as plt
 
 def coordinate():
-  print("Please enter x values:")
+  print("Please enter x value:")
   x = int(input())
   print("Please enter y value:")
   y = int(input())
   return x,y
+
 def path():
   print("Retrieving path...")
   x_values = []
@@ -14,7 +15,7 @@ def path():
     data = coordinate()
     x_values.append(data[0])
     y_values.append(data[1])
-  return[x_values,y_values]
+  return [x_values,y_values]
 
 def run():
   values = path()
@@ -23,5 +24,4 @@ def run():
   plt.ylabel("Y values")
   plt.show()
 
-run()  
-
+run()

@@ -1,9 +1,11 @@
-from inhabitant import Inhabitant
+class Human:
 
-class Human(Inhabitant):
+  MAX_ENERGY = 100
 
   def __init__(self, name="Human", age=0):
-    super().__init__(name, age)
+    self.name = name
+    self.age = age
+    self.energy = Human.MAX_ENERGY
 
   def __str__(self):
     return f"My name is {self.name} and I am {self.age} years old and my energy is {self.energy}."
@@ -14,10 +16,22 @@ class Human(Inhabitant):
   def display(self):
     print(f"My name is {self.name}")
 
+  def grow(self):
+    self.age += 1
+
+  def eat(self, ammount):
+    self.energy += ammount
+    if self.energy > Human.MAX_ENERGY:
+      self.energy = Human.MAX_ENERGY
+
+  def move(self, distance):
+    self.energy -= distance
+    if self.energy < 0:
+      self.energy = 0
+
 
 if (__name__ == "__main__"):
-  
-  human = Inhabitant()
+  human = Human()
   print(repr(human))
   human.move(10)
   print(repr(human))
